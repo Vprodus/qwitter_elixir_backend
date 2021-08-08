@@ -1,5 +1,8 @@
 # Qweeter
 
+Run Postgres with
+`docker run -d --rm --name postgres -v pgdata:/var/lib/postgresql/data -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postgres -e PGDATA=/var/lib/postgresql/data -p 5432:5432  postgres:latest`
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
